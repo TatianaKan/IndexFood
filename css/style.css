@@ -173,6 +173,10 @@ body {
 .promo {
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+
 }
 
 .card {
@@ -180,11 +184,12 @@ body {
   overflow: hidden;
   border-radius: 20px;
   padding: 32px;
-  max-width: 570px;
+  min-width: 570px;
   min-height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 50px;
 }
 
 .card::before {
