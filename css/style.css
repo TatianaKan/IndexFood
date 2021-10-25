@@ -103,7 +103,7 @@ body {
 }
 
 .slide-content {
-  max-width: 400px;
+  max-width: 500px;
   position: relative;
 }
 
@@ -125,6 +125,24 @@ body {
 .slide-text-light {
   background-color: gray;
   color: white;
+}
+.slider-buttons {
+position: absolute;
+right: 46px;
+bottom: 40px;
+z-index: 1;
+display: flex;
+align-items: center;
+width: 100px;
+justify-content: space-between;
+}
+
+.slider-button {
+  cursor: pointer;
+}
+
+.swiper {
+  position: relative;
 }
 
 .button-primary {
@@ -153,6 +171,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.slide-autumn {
+  background-image: url("../img/autumn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-spring {
+  background-image: url("../img/Spring.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .slide::before {
   content: "";
